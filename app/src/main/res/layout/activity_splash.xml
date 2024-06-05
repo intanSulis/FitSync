@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical">
+
+    <!-- Top glowing line -->
+
+    <!-- Logo in the center -->
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="250dp"
+        android:layout_height="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/glow_line_top" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <!-- App name text below the logo with Roboto Black font -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Fit Flux"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+    <!-- Tagline text below the app name with Roboto Regular font -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Jaga tubuh kuat bersama kami"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+    <!-- Bottom glowing line -->
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="250dp"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/glow_line_bottom" />
+
+</RelativeLayout>

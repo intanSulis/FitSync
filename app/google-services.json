@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130390562942",
+    "project_id": "flux-fit",
+    "storage_bucket": "flux-fit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130390562942:android:c37afae36b5a14f03e202f",
+        "android_client_info": {
+          "package_name": "com.example.fluxfit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyOaMVcfdDTGFueSWOArKMeWR0YCuNcOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
