@@ -31,7 +31,7 @@
         android:layout_below="@id/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Fit Flux"
+        android:text="FitSync"
         android:textColor="#ffffff"
         android:textSize="40sp"
         android:textStyle="bold"
